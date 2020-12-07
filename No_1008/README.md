@@ -10,6 +10,6 @@ It's guaranteed that for the given test cases there is always possible to find a
 
 ---
 ## 解決思路
-由於preorder是依照D(root)、L(left subtree)、R(right subtree)的順序遍歷，再加上binary search之左子樹節點必小於root、右子樹節點必大於root，所以我們可以從給定的preorder vector中取出第一個root後，再將之後的vector分為小於或大於節點的兩組，即為root在binary search tree中的左子樹和右子樹。而左子樹和右子樹再以遞迴的方式相同解之即可。
+由於preorder是依照D(root)、L(left subtree)、R(right subtree)的順序遍歷，再加上binary search tree之左子樹節點必小於root、右子樹節點必大於root，所以我們可以從給定的preorder vector中取出第一個root後，再將之後的vector分為小於或大於節點的兩組，即為root在binary search tree中的左子樹和右子樹。而左子樹和右子樹再以遞迴的方式相同解之即可。
 
 
