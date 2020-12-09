@@ -21,14 +21,18 @@ Return the **number** of indices that you could choose such that after the remov
 
 我們使用兩個變數來儲存左子陣列的奇數項總和、偶數項總和(**tmpOddSum**、**tmpEvenSum**)。
 
-我們可以觀察到**index i**為下列兩總cases:
+我們可以觀察到**index i**為下列兩種cases:
 
 1. **index i** 是奇數項:
+
     移除掉該項的奇數項總和為: **evenSum - tmpEvenSum + tmpOddSum**
+    
     移除掉該項的偶數項總和為: **oddSum - tmpOddSum - nums[i] + tmpEvenSum**
     
 2. **index i** 是偶數項:
+
     移除掉該項的奇數項總和為: **evenSum - tmpEvenSum - nums[i] + tmpOddSum**
+    
     移除掉該項的偶數項總和為: **oddSum - tmpOddSum + tmpEvenSum**
 
 
