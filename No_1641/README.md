@@ -15,7 +15,7 @@ A string `s` is **lexicographically sorted** if for all valid `i`, `s[i]` is the
 
 假設n為5，0為球，1為棒子。
 
-Example:
+*Example:*
 
 **010101010** 此排列相當於 a、e、i、o、u。
 
