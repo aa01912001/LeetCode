@@ -31,6 +31,9 @@ queries中的某項 [i, j] 之對應解為: iXor[j] **Xor** iXor[i-1]。
 此想法是透過四個Xor運算之重要原理:
 
 **1. i Xor i = 0**
+
 **2. i Xor 0 = i**
+
 **3. i Xor j = j Xor i**
-**4. (i Xor j) Xor k = i Xor (j Xor k) **
+
+**4. (i Xor j) Xor k = i Xor (j Xor k)**
