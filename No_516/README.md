@@ -24,4 +24,5 @@ Constraints:
 此題相當於將字串`s`與`reverse(s)`解Longest Common Subsequence問題，所以我們可以使用DP來解此題，其狀態轉移式為:
 
 **dp[i][j] = max(dp[i][j-1], dp[i-1][j]), if e1 != e2**
+
 **dp[i][j] = dp[i-1][j-1] + 1, if e1 != e2**
