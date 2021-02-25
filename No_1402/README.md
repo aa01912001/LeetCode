@@ -22,9 +22,9 @@ Explanation: After Removing the second and last dish, the maximum total Like-tim
 
 Constraints:
 
-- n == satisfaction.length
-- 1 <= n <= 500
-- -10^3 <= satisfaction[i] <= 10^3
+- `n == satisfaction.length`
+- `1 <= n <= 500`
+- `-10^3 <= satisfaction[i] <= 10^3`
 
 ---
 ## 解決思路
