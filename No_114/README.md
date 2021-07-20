@@ -1,6 +1,6 @@
 題號: 114. Flatten Binary Tree to Linked List
 
-難度: Easy
+難度: Medium
 
 ## 問題描述
 
