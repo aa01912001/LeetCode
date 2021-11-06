@@ -17,6 +17,7 @@ A **leaf** node is a node with no children.
 
 ![image alt](https://assets.leetcode.com/uploads/2021/02/19/num2tree.jpg)
 
+```
 Input: root = [4,9,0,5,1]
 Output: 1026
 Explanation:
@@ -25,10 +26,6 @@ The root-to-leaf path 4->9->1 represents the number 491.
 The root-to-leaf path 4->0 represents the number 40.
 Therefore, sum = 495 + 491 + 40 = 1026.
 
-```
-Input: num = 2736
-Output: 7236
-Explanation: Swap the number 2 and the number 7.
 ```
 
 **Constraints:**
