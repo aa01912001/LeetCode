@@ -36,4 +36,4 @@ Explanation: Change the direction of edges show in red such that each node can r
 ---
 ## 解決思路
 
-此題我們我們可利用DFS的策略，從0開始進行遍歷。在DFS的過程中，我們將邊視為無向邊來進行深度搜尋，然而我們一旦發現有**非連向前DFS節點的邊**的話，就將解答值加1(因為此graph為tree，所以此邊必定要作reverse)，如此遍歷到最後即可得到所需最少的改變次數。
+此題我們可利用DFS的策略，從0開始進行遍歷。在DFS的過程中，我們將邊視為無向邊來進行深度搜尋，然而我們一旦發現有**非連向前DFS節點的邊**的話，就將解答值加1(因為此graph為tree，所以此邊必定要作reverse)，如此遍歷到最後即可得到所需最少的改變次數。
