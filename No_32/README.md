@@ -15,7 +15,7 @@ Explanation: The longest valid parentheses substring is "()()".
 
 **Constraints:**
 
-- `0 <= s.length <= 3 * 10^4
+- `0 <= s.length <= 3 * 10^4`
 - `s[i]` is `'('`, or `')'`.
 
 ---
