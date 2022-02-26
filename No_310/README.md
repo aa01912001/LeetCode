@@ -33,7 +33,7 @@ Explanation: As shown, the height of the tree is 1 when the root is the node wit
 ---
 ## 解決思路
 
-此題我們我們透過**Kahn’s algorithm**來進行**Topological Sorting**，在每一回合當中，我們將graph中的**leaf nodes**刪除，直至找到最後degree為1的節點即可。
+此題我們透過**Kahn’s algorithm**來進行**Topological Sorting**，在每一回合當中，我們將graph中的**leaf nodes**刪除，直至找到最後degree為1的節點即可。
 
 此方法思想在於找到最靠近graph中間的那些節點，**這些節點作為root會使整個graph成為MHT**。
 
