@@ -9,6 +9,7 @@ You are given an array of flight bookings `bookings`, where `bookings[i] = [firs
 
 Return an array `answer` of length `n`, where `answer[i]` is the total number of seats reserved for flight `i`.
 
+**Example 1:**
 ```
 Input: bookings = [[1,2,10],[2,3,20],[2,5,25]], n = 5
 Output: [10,55,45,25,25]
