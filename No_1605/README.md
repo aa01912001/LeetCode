@@ -9,6 +9,7 @@ Find any matrix of **non-negative** integers of size `rowSum.length x colSum.len
 
 Return a 2D array representing **any** matrix that fulfills the requirements. It's guaranteed that **at least one** matrix that fulfills the requirements exists.
 
+**Example 1:**
 ```
 Input: rowSum = [3,8], colSum = [4,7]
 Output: [[3,0],

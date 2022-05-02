@@ -11,6 +11,7 @@ A **deletion** is defined as either removing an element from the **front** of th
 
 Return the **minimum** number of deletions it would take to remove **both** the minimum and maximum element from the array.
 
+**Example 1:**
 ```
 Input: nums = [2,10,7,5,4,1,8,6]
 Output: 5

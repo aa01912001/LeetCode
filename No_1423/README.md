@@ -11,6 +11,7 @@ Your score is the sum of the points of the cards you have taken.
 
 Given the integer array `cardPoints` and the integer `k`, return the maximum score you can obtain.
 
+**Example 1:**
 ```
 Input: cardPoints = [1,2,3,4,5,6,1], k = 3
 Output: 12

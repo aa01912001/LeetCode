@@ -9,6 +9,7 @@ A **move** is defined as selecting **three consecutive characters** of `s` and c
 
 Return the **minimum** number of moves required so that all the characters of `s` are converted to `'O'`.
 
+**Example 1:**
 ```
 Input: s = "XXX"
 Output: 1
