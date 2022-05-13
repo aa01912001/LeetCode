@@ -26,7 +26,6 @@ public:
             int size = q.size();
             while(size--) {
                 Node* t = q.front(); q.pop();
-                // cout << t->val << endl;
                 if(size >= 1) t->next = q.front();
                 if(t->left != nullptr) q.push(t->left);
                 if(t->right != nullptr) q.push(t->right);
