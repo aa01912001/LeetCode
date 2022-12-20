@@ -48,4 +48,4 @@ lRUCache.get(4);    // return 4
 
 在`get`中，若`key`存在則將其在list中的節點轉移至list最前端，否則返回-1。
 
-在`put`中，若`key`存在則將其在list中的節點轉移至list最前端並且更新其`value`值，否則，若Cache已滿，則將list最後的節點刪除，並新增新節點至list前端，若Cache尚未滿，則直接新增新節點至list前端，
+在`put`中，若`key`存在則將其在list中的節點轉移至list最前端並且更新其`value`值，否則，若Cache已滿，則將list最後的節點刪除，並新增新節點至list前端，若Cache尚未滿，則直接新增新節點至list前端。
