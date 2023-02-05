@@ -14,7 +14,7 @@ public:
                     ret = min(ret, dp[left]+right-left+1);
             }
             dp[right+1] = curMinLen;
-            if(sum > target) {
+            if(sum > target && left != right) {
                 sum -= arr[left];
                 left++;
                 if(left == n) break;
