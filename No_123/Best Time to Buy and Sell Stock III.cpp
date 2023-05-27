@@ -31,10 +31,9 @@ public:
             maxProfRight[i] = max(maxProfRight[i], maxProfRight[i+1]);
         }
         
-        int ret = 0;
+        int ret = 0; 
         for (int i=1; i<n-1; i++) {
             ret = max(ret, maxProfLeft[i]+maxProfRight[i+1]);
-            ret = max(ret, maxProfLeft[i-1]+maxProfRight[i]);
         }
         
         // if only one transaction and sell on last day

@@ -39,5 +39,3 @@ Then buy on day 7 (price = 1) and sell on day 8 (price = 4), profit = 4-1 = 3.
 因為我們知道兩次最佳的交易不會有時間上的交集，因此對於每一天我們可以判斷
 
 `maxProfLeft[i] + maxProfRight[i+1]` (代表`0~i`天的最大利益加上`i+1~n-1`天的最大利益) 是否比當前解答高。
-
-`maxProfLeft[i-1] + maxProfRight[i]` (代表`0~i-1`天的最大利益加上`i~n-1`天的最大利益) 是否比當前解答高。
