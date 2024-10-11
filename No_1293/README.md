@@ -31,4 +31,4 @@ The shortest path with one obstacle elimination at position (3,2) is 6. Such pat
 
 若我們走到`grid[i][j]`，就需要查看當前所剩餘的`k`是否比曾經走訪時的`k`來的小，若是，則代表不需要再次經過此cell，因為當初已經是更好的路徑。
 
-一旦我們走到目的地，即可返回路徑部署，也就是BFS迭代了幾次擴展。
+一旦我們走到目的地，即可返回路徑步數，也就是BFS迭代了幾次擴展。
