@@ -1,6 +1,6 @@
-題號: 3314. Construct the Minimum Bitwise Array I
+題號: 3315. Construct the Minimum Bitwise Array II
 
-難度: `Easy`
+難度: `Medium`
 
 ## 問題描述
 
@@ -26,13 +26,14 @@ Explanation:
     For i = 1, the smallest ans[1] that satisfies ans[1] OR (ans[1] + 1) = 3 is 1, because 1 OR (1 + 1) = 3.
     For i = 2, the smallest ans[2] that satisfies ans[2] OR (ans[2] + 1) = 5 is 4, because 4 OR (4 + 1) = 5.
     For i = 3, the smallest ans[3] that satisfies ans[3] OR (ans[3] + 1) = 7 is 3, because 3 OR (3 + 1) = 7.
+
+
 ```
 **Constraints:**
 
 - `1 <= nums.length <= 100`
-- `2 <= nums[i] <= 1000`
+- `2 <= nums[i] <= 10^9`
 - `nums[i]` is a prime number.
-
 
 **解決思路:**
 
