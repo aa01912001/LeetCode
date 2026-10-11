@@ -26,4 +26,4 @@ Explanation: Initially n is 16 and its digit sum is 1 + 6 = 7. After adding 4, n
 
 **解決思路:**
 
-此只只需要採用greedy的方式，嘗試從最小位數的digit依序讓他變0，直到整個數字的digits總和小於等於target即可。
+此題只需要採用greedy的方式，嘗試從最小位數的digit依序讓他變0，直到整個數字的digits總和小於等於target即可。
