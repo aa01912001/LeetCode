@@ -1,6 +1,6 @@
-題號: 2740. Find the Value of the Partition
+Problem Numbe: 2740. Find the Value of the Partition
 
-難度: `Medium`
+Difficulty: `Medium`
 
 ## Problem Description
 
