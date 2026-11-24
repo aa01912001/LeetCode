@@ -43,7 +43,7 @@ productOfNumbers.getProduct(2); // return 32. The product of the last 2 numbers 
 * At most `4 * 10^4` calls will be made to `add` and `getProduct`.
 * The product of the stream at any point in time will fit in a **32-bit** integer.
 
-**Follow-up:** Can you implement **both** `GetProduct` and `Add` to work in `O(1)` time complexity instead of `O(k)` time complexity?[cite: 3]
+**Follow-up:** Can you implement **both** `GetProduct` and `Add` to work in `O(1)` time complexity instead of `O(k)` time complexity?
 
 ## Solution Intuition
 
